@@ -1,0 +1,135 @@
+a.title > img{
+    right:550;
+    height:100;
+    width:550;
+    font:times;
+}
+a.title > img.skull{
+    height:100;
+    width:100;
+    font:times;
+}
+a.title + img.skull{
+    height:100;
+    width:100;
+    font:times;
+}
+a.title{
+    display:inline-flex;
+}
+span.header{
+    font:times;
+    text-align:center;
+    color:#32a852;
+}
+span.content{
+    display:inline-flex;
+}
+body{
+    background-color:#363c40;
+    background-image:url("https://cdn.pixilart.com/photos/large/29010dc57588939.jpg");
+    height:2000px;
+}
+.hidden{
+    display:none;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.fullScreen {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 125;
+    left: 0;
+}
+.dark-mode{
+    background-color:black;
+}
+iframe.game-frame{
+    height:523;
+    width:612;
+}
+h2.title{
+    font-style:italic;
+    font:times;
+    color:#0c192e;
+    font-size:36;
+}
+p.description{
+    font:serif;
+    font-style:bold;
+    color:#3b424d;
+    font-size:18;
+}
+p.controls{
+    font:serif;
+    font-style:bold;
+    color:#2d323b;
+    font-size:22;
+}
+p.credits{
+    font:serif;
+    font-style:bold;
+    color:#2d323b;
+    font-size:20;
+}
+p.credits > a{
+    color:#08821c;
+    font-size:21;
+}
+table.game{
+    margin-top:125px;
+    margin-left:535px;
+    text-align:center;
+    background-color:#888e8f;
+    width:750;
+    height:860;
+}
+.game-list{
+    padding:5px;
+    padding-left:55px;
+    padding-right:50px;
+    background-color:#888e8f;
+    width:100px;
+    height:75px;
+    border:5px solid #4d5157;
+    text-align:center;
+}
+.game-list > p > a{
+    text-decoration:none;
+    color:#08821c;
+    font-size:18;
+}
+#mySearch {
+    margin-left:2000;
+    width: 255px;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+}
+#myMenu {
+    list-style-type: none;
+    margin-left:2000;
+    margin-top:0;
+    padding: 0;
+}
+#myMenu li a {
+    padding: 12px;
+    width: 230px;
+    border:5px solid #4d5157;
+    text-decoration: none;
+    color: black;
+    display: block
+}
+
+#myMenu li a:hover {
+    background-color: #eee;
+}
+#myMenu li a{
+    background-color:#888e8f;
+}
+iframe{
+    z-index:1;
+}
