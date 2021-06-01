@@ -9,11 +9,11 @@ img.loader{
     height: 100%;
 }
 .game-thumbnail{
-    width: 350px;
+    width: 400px;
     height: 200px;
 }
-.game-thumbnail img:hover{
-    width: 550px;
+img:hover{
+    width: 650px;
     height: 450px;
 }
 a.title > img.skull{
