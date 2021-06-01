@@ -1,2 +1,3 @@
 # SkelllixGames
-https://bonk.io/gameframe-release.html
+
+It's just a game site, nothing special.
