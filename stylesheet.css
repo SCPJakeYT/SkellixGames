@@ -12,7 +12,7 @@ img.loader{
     width: 400px;
     height: 200px;
 }
-game-thumbnail:hover{
+.game-thumbnail:hover{
     position:relative;
     top:-25px;
     left:-35px;
