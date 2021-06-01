@@ -11,7 +11,7 @@ img.loader{
 .game-thumbnail{
     position: absolute;
     width: 400px;
-    height: 200px;
+    height: 300px;
 }
 .game-thumbnail:hover{
     position:relative;
