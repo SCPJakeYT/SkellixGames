@@ -10,14 +10,14 @@ img.loader{
 }
 .game-thumbnail{
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 450px;
+    height: 350px;
 }
 .game-thumbnail:hover{
     position:relative;
     top:-25px;
     left:-35px;
-    width:450px;
+    width:500px;
     height:auto;
     display:block;
     z-index:999;
