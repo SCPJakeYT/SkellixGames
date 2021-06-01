@@ -9,6 +9,7 @@ img.loader{
     height: 100%;
 }
 .game-thumbnail{
+    position: absolute;
     width: 400px;
     height: 200px;
 }
