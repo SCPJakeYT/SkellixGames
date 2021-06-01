@@ -12,9 +12,14 @@ img.loader{
     width: 400px;
     height: 200px;
 }
-img:hover{
-    width: 650px;
-    height: 450px;
+game-thumbnail:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
 }
 a.title > img.skull{
     height:100;
