@@ -12,7 +12,7 @@ img.loader{
     width: 350px;
     height: 200px;
 }
-.game-thumbnail:hover{
+.game-thumbnail img:hover{
     width: 550px;
     height: 450px;
 }
