@@ -13,7 +13,7 @@ img.loader{
     width: 450px;
     height: 350px;
 }
-.thumbnail-row button:not(:last-child){
+.thumbnail-row a > button:not(:last-child){
     border-right: none;
 }
 .thumbnail-row:after{
