@@ -13,6 +13,14 @@ img.loader{
     width: 450px;
     height: 350px;
 }
+.thumbnail-row button:not(:last-child){
+    border-right: none;
+}
+.thumbnail-row:after{
+  content: "";
+  clear: both;
+  display: table;
+}
 .game-thumbnail:hover{
     position:relative;
     top:-25px;
