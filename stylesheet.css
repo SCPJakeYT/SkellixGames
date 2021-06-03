@@ -9,8 +9,8 @@ img.loader{
     height: 100%;
 }
 .thumbnail-row a > button{
-    width: 450px;
-    height: 350px;
+    width: 200px;
+    height: 150px;
 }
 .thumbnail-row a > button:not(:last-child){
     border-right: none;
@@ -20,7 +20,7 @@ img.loader{
   clear: both;
   display: table;
 }
-.thumbnail-row a > button:hover{
+.thumbnail-row a > button > img:hover{
     position:relative;
     top:-25px;
     left:-35px;
