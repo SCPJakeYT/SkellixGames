@@ -12,6 +12,7 @@ img.loader{
 .thumbnail-row a > img{
     width: 200px;
     height: 150px;
+    z-index:1;
 }
 .thumbnail-row a > img{
     position: absoulte;
