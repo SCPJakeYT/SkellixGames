@@ -8,20 +8,11 @@ img.loader{
     width: 100%;
     height: 100%;
 }
-.thumbnail-row a > button{
+.thumbnail-row a > img{
     width: 200px;
     height: 150px;
 }
-.thumbnail-row a > button:not(:last-child){
-    border-right: none;
-}
-.thumbnail-row a > button{
-    width: 0px;
-    height: 0px;
-    margin: 125px;
-}
-
-.thumbnail-row a > button > img{
+.thumbnail-row a > img{
     position: absoulte;
     width: 200px;
     height: 150px;
