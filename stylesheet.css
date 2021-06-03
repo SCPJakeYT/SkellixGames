@@ -15,6 +15,11 @@ img.loader{
 .thumbnail-row a > button:not(:last-child){
     border-right: none;
 }
+.thumbnail-row a > button{
+    width: 5px;
+    height: 5px
+    margin: 75px;
+}
 .thumbnail-row:after{
   content: "";
   clear: both;
