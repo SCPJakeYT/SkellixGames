@@ -113,6 +113,14 @@ table.game{
     width:750;
     height:860;
 }
+table.game{
+    position:absolute;
+    top:325px;
+    left:735px;
+    background-color:#888e8f;
+    width:950;
+    height:1500;
+}
 .game-list{
     padding:5px;
     padding-left:55px;
