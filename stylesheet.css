@@ -18,7 +18,13 @@ img.loader{
 .thumbnail-row a > button{
     width: 5px;
     height: 5px;
-    margin: 75px;
+    margin: 125px;
+}
+
+.thumbnail-row a > button{
+    position: absoulte;
+    width: 200px;
+    height: 150px;
 }
 .thumbnail-row:after{
   content: "";
