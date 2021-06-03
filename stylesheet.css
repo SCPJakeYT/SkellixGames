@@ -20,7 +20,7 @@ img.loader{
   clear: both;
   display: table;
 }
-.game-thumbnail:hover{
+.thumbnail-row a > button:hover{
     position:relative;
     top:-25px;
     left:-35px;
