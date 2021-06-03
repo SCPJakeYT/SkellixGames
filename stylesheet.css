@@ -116,10 +116,9 @@ table.game{
 table.array-frame{
     position:absolute;
     top:325px;
-    left:735px;
+    left:950px;
     background-color:#888e8f;
     width:950;
-    height:1500;
 }
 .game-list{
     padding:5px;
