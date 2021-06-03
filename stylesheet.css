@@ -17,7 +17,7 @@ img.loader{
 }
 .thumbnail-row a > button{
     width: 5px;
-    height: 5px
+    height: 5px;
     margin: 75px;
 }
 .thumbnail-row:after{
