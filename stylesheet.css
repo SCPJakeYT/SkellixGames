@@ -16,8 +16,8 @@ img.loader{
     border-right: none;
 }
 .thumbnail-row a > button{
-    width: 5px;
-    height: 5px;
+    width: 0px;
+    height: 0px;
     margin: 125px;
 }
 
