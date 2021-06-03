@@ -24,7 +24,7 @@ img.loader{
   clear: both;
   display: table;
 }
-.thumbnail-row a > button > img:hover{
+.thumbnail-row a > img:hover{
     position:relative;
     filter:grayscale(0%);
     filter:brightness(100%);
