@@ -25,6 +25,8 @@ img.loader{
     position: absoulte;
     width: 200px;
     height: 150px;
+    filter:grayscale(25%);
+    filter:brightness(75%);
 }
 .thumbnail-row:after{
   content: "";
@@ -33,10 +35,10 @@ img.loader{
 }
 .thumbnail-row a > button > img:hover{
     position:relative;
+    filter:grayscale(0%);
+    filter:brightness(100%);
     top:-25px;
     left:-35px;
-    width:300px;
-    height:auto;
     display:block;
     z-index:999;
 }
