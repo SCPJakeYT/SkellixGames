@@ -1,14 +1,14 @@
 <html>
     <head>
-        <title>SK3LL!X Games | Home</title>
+        <title>SK3LL!X Games | Friday Night Funkin Game List</title>
         <link rel="stylesheet" type"text/css" href="stylesheet.css">
         <link rel="icon" href="https://cdn.pixilart.com/photos/large/b40b5971080a52f.png">
         <link rel="shortcut icon" href="https://cdn.pixilart.com/photos/large/b40b5971080a52f.png">
     </head>
-    <body onload="setup()">
+    <body overflow="hidden" onload="setup()">
     <img class="loader" src="https://cdn.pixilart.com/photos/orginal/cc1484f846482db.gif">
     <input type="text" id="mySearch" onkeyup="search()" placeholder="Search.." title="Type in a category">
-                <ul id="myMenu"><li>
+                <ul id="myMenu">
                     <li><a href="funkin.html"> Friday Night Funkin'</a></li>
                     <li><a href="funkin-bsides.html"> Friday Night Funkin' B-Sides Mod</a></li>
                     <li><a href="funkin-csides.html"> Friday Night Funkin' C-Sides Mod</a></li>
@@ -34,8 +34,8 @@
             <h1>FREE INDIE GAMES ONLINE</h1>
         </span>
         <span class="content">
-           
-                 <table class="games">
+            
+            <table class="games">
                  <tr>
                     <th class="game-list"><p><a href="index.html">Home</a></th></p>
                  </tr>
@@ -44,6 +44,9 @@
                  </tr>
                  <tr>
                     <th class="game-list"><p><a href="bad-time-simulator.html">Bad Time Simulator</a></th></p>
+                 </tr>
+                 <tr>
+                    <th class="game-list"><p><a href="funkin-games.html">All Friday Night Funkin' Games</a></th></p>
                  </tr>
                  <tr>
                     <th class="game-list"><p><a href="funkin.html">Friday Night Funkin'</a></th></p>
@@ -69,15 +72,15 @@
                  <tr>
                     <th class="game-list"><p><a href="funkin-tricky.html">Friday Night Funkin' Tricky Mod</a></th></p>
                  </tr>
-                 <tr>
-                    <th class="game-list"><p><a href="funkin-kapi.html">Friday Night Funkin' Arcade Showdown Mod (Vs Kapi)</a></th></p>
-                 </tr>
-                 <tr>
-                    <th class="game-list"><p><a href="funkin-midfight.html">Friday Night Funkin' Mid-Fight Masses Mod</a></th></p>
-                 </tr>
-              </table>
                  
-            <table class="array">
+            </table>
+            
+            <table class="array-frame">
+                <tr>
+                    <th>
+                        <hr>
+                        <h2 class="title">All Friday Night Game List</h2>
+                        <hr><table class="array">
                                 <tr>
                                     <th>
                                         <div class="thumbnail-row">
@@ -88,7 +91,11 @@
                                     </th>
                                 <tr>
                             </table>
-</span>
+                        <br>
+                        <hr>
+                     </th>
+                 </tr>
+             </table>
         <br>
         <br>
         <br>
@@ -146,12 +153,16 @@
             }
             function setup(){
                 search();
+                document.getElementsByTagName("body")[0].style.overflow= "auto";
                 document.getElementsByClassName("header")[0].style.position= "absolute";
                 document.getElementsByClassName("header")[0].style.top = "25";
                 document.getElementsByClassName("header")[0].style.left = "790";
                 document.getElementsByClassName("games")[0].style.position= "absolute";
                 document.getElementsByClassName("games")[0].style.top = "200";
                 document.getElementsByClassName("games")[0].style.left = "0";
+                document.getElementsByClassName("array-frame")[0].style.position= "absolute";
+                document.getElementsByClassName("array-frame")[0].style.top = "200";
+                document.getElementsByClassName("array-frame")[0].style.left = "260";
                 document.getElementsByClassName("loader")[0].style.display = "none";
             }
         </script>
