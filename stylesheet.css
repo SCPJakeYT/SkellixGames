@@ -121,7 +121,7 @@ table.array-frame{
     text-align:center;
     background-color:#888e8f;
     width:1525;
-    height:860;
+    height:auto;
 }
 .game-list{
     padding:5px;
