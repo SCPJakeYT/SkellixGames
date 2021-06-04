@@ -133,7 +133,7 @@ table.array-frame{
     border:5px solid #4d5157;
     text-align:center;
 }
-.game-list > p > a{
+.game-list > p{
     text-decoration:none;
     color:#08821c;
     font-size:18;
