@@ -1,4 +1,4 @@
-
+<Doctype HTTML>
 <html>
     <head>
         <title>SK3LL!X Games | Bad Time Simulator</title>
