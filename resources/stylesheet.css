@@ -126,21 +126,21 @@ table.game{
     height:33%;
 }
 table.array-frame{
-    margin-top:125px;
-    margin-left:120px;
+    margin-top:15%px;
+    margin-left:6%px;
     text-align:center;
     background-color:#888e8f;
     z-index: 3;
-    width:1800;
+    width:82%;
     height:auto;
 }
 .game-list{
     padding:5px;
-    padding-left:55px;
-    padding-right:50px;
+    padding-left:2%px;
+    padding-right:2%px;
     background-color:#888e8f;
-    width:300px;
-    height:100px;
+    width:15%;
+    height:7.5%px;
     border:5px solid #4d5157;
     text-align:center;
 }
@@ -151,7 +151,7 @@ table.array-frame{
 }
 #mySearch {
     margin-left:1980;
-    width: 255px;
+    width: 15%px;
     font-size: 18px;
     padding: 11px;
     border: 1px solid #ddd;
@@ -163,8 +163,8 @@ table.array-frame{
     padding: 0;
 }
 #myMenu li a {
-    padding: 12px;
-    width: 230px;
+    padding: 1%px;
+    width: 15%px;
     border:5px solid #4d5157;
     text-decoration: none;
     z-frame:5;
