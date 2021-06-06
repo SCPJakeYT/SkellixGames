@@ -132,7 +132,7 @@ table.array-frame{
     font-size:18;
 }
 #mySearch {
-    left:850;
+    left:1100;
     width: 150px;
     font-size: 18px;
     padding: 11px;
@@ -140,7 +140,7 @@ table.array-frame{
 }
 #myMenu {
     list-style-type: none;
-    left:850;
+    left:1100;
     margin-top:0;
     padding: 0;
 }
