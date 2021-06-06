@@ -10,14 +10,9 @@ img.loader{
     z-index:99999999999999999999999999999999999999999;
 }
 .thumbnail-row a > img{
-    width: 200px;
-    height: 150px;
-    z-index:1;
-}
-.thumbnail-row a > img{
     position: absoulte;
-    width: 200px;
-    height: 150px;
+    width: 2%;
+    height: 1%;
     filter:grayscale(25%);
     filter:brightness(75%);
     z-index: 4;
