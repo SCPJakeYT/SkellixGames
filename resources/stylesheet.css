@@ -19,14 +19,14 @@ img.loader{
     z-index:99999999999999999999999999999999999999999;
 }
 .thumbnail-row a > img{
-    width: 200px;
-    height: 150px;
+    width: 5%px;
+    height: 7%px;
     z-index:1;
 }
 .thumbnail-row a > img{
     position: absoulte;
-    width: 200px;
-    height: 150px;
+    width: 5%px;
+    height: 7%px;
     filter:grayscale(25%);
     filter:brightness(75%);
     z-index: 4;
@@ -43,13 +43,13 @@ img.loader{
     filter:brightness(100%);
 }
 a.title > img.skull{
-    height:100;
-    width:100;
+    height:6%;
+    width:6%;
     font:times;
 }
 a.title + img.skull{
-    height:100;
-    width:100;
+    height:6%;
+    width:6%;
     font:times;
 }
 a.title{
@@ -86,8 +86,8 @@ body, html {
     background-color:black;
 }
 iframe.game-frame{
-    height:523;
-    width:612;
+    height:25%;
+    width:25%;
 }
 h2.title{
     font-style:italic;
@@ -122,8 +122,8 @@ table.game{
     margin-left:535px;
     text-align:center;
     background-color:#888e8f;
-    width:750;
-    height:860;
+    width:80%;
+    height:33%;
 }
 table.array-frame{
     margin-top:125px;
