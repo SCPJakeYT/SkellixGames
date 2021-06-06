@@ -1,7 +1,7 @@
 a.title > img{
     right:550;
     height:100;
-    width:275;
+    width:550;
     font:times;
 }
 img.loader{
@@ -29,13 +29,13 @@ img.loader{
     filter:brightness(100%);
 }
 a.title > img.skull{
-    height:50;
-    width:50;
+    height:100;
+    width:100;
     font:times;
 }
 a.title + img.skull{
-    height:50;
-    width:50;
+    height:100;
+    width:100;
     font:times;
 }
 a.title{
