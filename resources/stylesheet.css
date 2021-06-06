@@ -1,15 +1,6 @@
-.page{
-    width: 100%;
-    height: auto;
-}
-.articles{
-    width:90%; /*Takes 90% width from WebContainer*/
-    height: auto;
-    margin: auto;
-} 
 a.title > img{
-    right:300%;
-    height:300%;
+    right:550;
+    height:100;
     width:550;
     font:times;
 }
@@ -19,14 +10,14 @@ img.loader{
     z-index:99999999999999999999999999999999999999999;
 }
 .thumbnail-row a > img{
-    width: 7%;
-    height: 5%;
+    width: 200px;
+    height: 150px;
     z-index:1;
 }
 .thumbnail-row a > img{
     position: absoulte;
-    width: 7%;
-    height: 5%;
+    width: 200px;
+    height: 150px;
     filter:grayscale(25%);
     filter:brightness(75%);
     z-index: 4;
@@ -43,13 +34,13 @@ img.loader{
     filter:brightness(100%);
 }
 a.title > img.skull{
-    height:6%;
-    width:6%;
+    height:100;
+    width:100;
     font:times;
 }
 a.title + img.skull{
-    height:6%;
-    width:6%;
+    height:100;
+    width:100;
     font:times;
 }
 a.title{
@@ -86,8 +77,8 @@ body, html {
     background-color:black;
 }
 iframe.game-frame{
-    height:25%;
-    width:25%;
+    height:523;
+    width:612;
 }
 h2.title{
     font-style:italic;
@@ -122,39 +113,28 @@ table.game{
     margin-left:535px;
     text-align:center;
     background-color:#888e8f;
-    width:80%;
-    height:33%;
+    width:750;
+    height:860;
 }
 table.array-frame{
-    margin-top:15%px;
-    margin-left:6%px;
+    margin-top:125px;
+    margin-left:120px;
     text-align:center;
     background-color:#888e8f;
     z-index: 3;
-    width:82%;
+    width:1850;
     height:auto;
 }
 .game-list{
-    padding:5px;
-    padding-left:2%;
-    padding-right:2%;
-    background-color:#888e8f;
-    width:15%;
-    height:7.5%px;
-    border:5px solid #4d5157;
-    text-align:center;
-}
-.game-list > p{
-    text-decoration:none;
-    color:#08821c;
+	@@ -141,7 +141,7 @@ table.array-frame{
     font-size:18;
 }
 #mySearch {
-    margin-left:98%;
-    width: 15%;
-    font-size: 1%px;
-    padding: 1%px;
-    border: 0.01% solid #ddd;
+    margin-left:2000;
+    width: 255px;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
 }
 #myMenu {
     list-style-type: none;
@@ -163,15 +143,14 @@ table.array-frame{
     padding: 0;
 }
 #myMenu li a {
-    padding: 1%;
-    width: 15%;
-    border:2% solid #4d5157;
+    padding: 12px;
+    width: 230px;
+    border:5px solid #4d5157;
     text-decoration: none;
     z-frame:5;
     color: black;
     display: block
 }
-
 #myMenu li a:hover {
     background-color: #eee;
 }
