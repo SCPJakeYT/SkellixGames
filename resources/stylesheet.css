@@ -11,8 +11,8 @@ img.loader{
 }
 .thumbnail-row a > img{
     position: absoulte;
-    width: 2%;
-    height: 1%;
+    width: 7%;
+    height: auto;
     filter:grayscale(25%);
     filter:brightness(75%);
     z-index: 4;
