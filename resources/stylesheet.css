@@ -117,7 +117,7 @@ table.array-frame{
     text-align:center;
     background-color:#888e8f;
     z-index: 3;
-    width:1850;
+    width:1250;
     height:auto;
 }
 .game-list{
@@ -132,7 +132,7 @@ table.array-frame{
     font-size:18;
 }
 #mySearch {
-    margin-left:2000;
+    margin-left:1800;
     width: 255px;
     font-size: 18px;
     padding: 11px;
