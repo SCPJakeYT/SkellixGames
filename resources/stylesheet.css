@@ -8,8 +8,8 @@
     margin: auto;
 } 
 a.title > img{
-    right:550;
-    height:100;
+    right:300%;
+    height:300%;
     width:550;
     font:times;
 }
@@ -19,14 +19,14 @@ img.loader{
     z-index:99999999999999999999999999999999999999999;
 }
 .thumbnail-row a > img{
-    width: 5%px;
-    height: 7%px;
+    width: 5%;
+    height: 7%;
     z-index:1;
 }
 .thumbnail-row a > img{
     position: absoulte;
-    width: 5%px;
-    height: 7%px;
+    width: 5%;
+    height: 7%;
     filter:grayscale(25%);
     filter:brightness(75%);
     z-index: 4;
