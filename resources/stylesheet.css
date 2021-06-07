@@ -139,6 +139,7 @@ table.array-frame{
 #mySearch {
     left:2000;
     width: 150px;
+    display:absolute;
     font-size: 18px;
     padding: 11px;
     border: 1px solid #ddd;
@@ -146,6 +147,7 @@ table.array-frame{
 #myMenu {
     list-style-type: none;
     left:2000;
+    display:absolute;
     margin-top:0;
     padding: 0;
 }
