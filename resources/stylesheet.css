@@ -13,7 +13,7 @@ img.loader{
     position: absoulte;
     width: 200px;
     height: 115px;
-    filter:grayscale(0%);
+    filter:grayscale(25%);
     filter:brightness(100%);
     z-index: 4;
     margin:15px;
@@ -25,8 +25,8 @@ img.loader{
 }
 .thumbnail-row a > img:hover{
     position:relative;
-    filter:grayscale(10%);
-    filter:brightness(150%);
+    filter:grayscale(0%);
+    filter:brightness(100%);
 }
 a.title > img.skull{
     height:100;
