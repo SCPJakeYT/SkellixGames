@@ -131,6 +131,11 @@ table.array-frame{
     text-align:center;
     font-size:18;
 }
+.game-list > p{
+    text-decoration:none;
+    color:#08821c;
+    font-size:18;
+}
 #mySearch {
     left:1100;
     width: 150px;
