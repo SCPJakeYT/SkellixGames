@@ -87,6 +87,13 @@ h2.subtitle{
     color:#3b475c;
     font-size:24;
 }
+h2.warning{
+    font-family: 'Staatliches', cursive;
+    font-style:bold;
+    font:times;
+    color:#ff0048;
+    font-size:36;
+}
 p.description{
     font:serif;
     font-style:bold;
