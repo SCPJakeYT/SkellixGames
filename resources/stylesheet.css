@@ -39,7 +39,7 @@ a.title{
     display:inline-flex;
 }
 span.header{
-    font-family: 'Staatliches', cursive;
+    font-family: 'Stalinist One', cursive;
     text-align:center;
     color:#32a852;
 }
@@ -80,7 +80,7 @@ h2.title{
 }
 h2.subtitle{
     font-style:italic;
-    font-family: 'Arvo', serif;
+    font-family: 'Viga', sans-serif;
     color:#3b475c;
     font-size:24;
 }
@@ -91,19 +91,19 @@ h2.warning{
     font-size:36;
 }
 p.description{
-    font-family: 'Arvo', serif;
+    font-family: 'Viga', sans-serif;
     font-style:bold;
     color:#3b424d;
     font-size:18;
 }
 p.controls{
-    font-family: 'Arvo', serif;
+    font-family: 'Viga', sans-serif;
     font-style:bold;
     color:#2d323b;
     font-size:22;
 }
 p.credits{
-    font-family: 'Arvo', serif;
+    font-family: 'Viga', sans-serif;
     font-style:bold;
     color:#2d323b;
     font-size:20;
