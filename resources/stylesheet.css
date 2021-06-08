@@ -81,6 +81,12 @@ h2.title{
     color:#0c192e;
     font-size:36;
 }
+h2.subtitle{
+    font-style:italic;
+    font:times;
+    color:#3b475c;
+    font-size:24;
+}
 p.description{
     font:serif;
     font-style:bold;
