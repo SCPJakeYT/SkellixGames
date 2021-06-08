@@ -2,7 +2,6 @@ a.title > img{
     right:550;
     height:100;
     width:550;
-    font-family: 'Arvo', serif;
 }
 img.loader{
     width: 100%;
@@ -31,12 +30,10 @@ img.loader{
 a.title > img.skull{
     height:100;
     width:100;
-    font-family: 'Arvo', serif;
 }
 a.title + img.skull{
     height:100;
     width:100;
-    font:times;
 }
 a.title{
     display:inline-flex;
