@@ -2,7 +2,7 @@ a.title > img{
     right:550;
     height:100;
     width:550;
-    font:times;
+    font-family: 'Arvo', serif;
 }
 img.loader{
     width: 100%;
@@ -31,7 +31,7 @@ img.loader{
 a.title > img.skull{
     height:100;
     width:100;
-    font:times;
+    font-family: 'Arvo', serif;
 }
 a.title + img.skull{
     height:100;
@@ -42,7 +42,7 @@ a.title{
     display:inline-flex;
 }
 span.header{
-    font:times;
+    font-family: 'Gorditas', cursive;
     text-align:center;
     color:#32a852;
 }
@@ -77,37 +77,36 @@ iframe.game-frame{
 }
 h2.title{
     font-style:italic;
-    font:times;
+    font-family: 'Arvo', serif;
     color:#0c192e;
     font-size:36;
 }
 h2.subtitle{
     font-style:italic;
-    font:times;
+    font-family: 'Arvo', serif;
     color:#3b475c;
     font-size:24;
 }
 h2.warning{
     font-family: 'Staatliches', cursive;
     font-style:bold;
-    font:times;
     color:#ff0048;
     font-size:36;
 }
 p.description{
-    font:serif;
+    font-family: 'Arvo', serif;
     font-style:bold;
     color:#3b424d;
     font-size:18;
 }
 p.controls{
-    font:serif;
+    font-family: 'Arvo', serif;
     font-style:bold;
     color:#2d323b;
     font-size:22;
 }
 p.credits{
-    font:serif;
+    font-family: 'Arvo', serif;
     font-style:bold;
     color:#2d323b;
     font-size:20;
