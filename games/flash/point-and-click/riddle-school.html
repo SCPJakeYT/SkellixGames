@@ -6,9 +6,10 @@
         <link rel="shortcut icon" href="https://cdn.pixilart.com/photos/large/b40b5971080a52f.png">
     </head>
     <body onload="setup()">
-        <span class="page">
+        <div class="overlay>"
         <div w3-include-html="https://SK3LLIX.github.io/SkellixGames/resources/fonts.html"></div>
         <img class="loader" src="https://SK3LLIX.github.io/SkellixGames/resources/assets/images/loader.gif">
+        </div>
         <input type="text" id="mySearch" onkeyup="search()" placeholder="Search.." title="Type in a category">
                 <ul id="myMenu">
                     <div w3-include-html="https://SK3LLIX.github.io/SkellixGames/resources/searchbar-results.html"></div>
@@ -216,7 +217,6 @@
         <script>
         includeHTML();
         </script>
-    </span>
     </body>
 </html>
 
