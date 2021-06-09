@@ -73,13 +73,13 @@ iframe.game-frame{
     width:612;
 }
 h2.title{
-    font-style:italic;
+    font-style:bold;
     font-family: 'Staatliches', cursive;
     color:#0c192e;
     font-size:36;
 }
 h2.subtitle{
-    font-style:italic;
+    font-style:bold;
     font-family: 'Viga', sans-serif;
     color:#3b475c;
     font-size:24;
