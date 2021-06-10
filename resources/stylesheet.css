@@ -59,7 +59,9 @@ span.content{
 body{
     background-color:#363c40;
     background-image:url("https://cdn.pixilart.com/photos/large/29010dc57588939.jpg");
-    height:2000px;
+    height:100vh;
+    width:100vw;
+   
 }
 .hidden{
     display:none;
