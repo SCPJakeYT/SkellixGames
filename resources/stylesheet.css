@@ -8,6 +8,9 @@
 [aria-hidden="true"] { display: none; }
 [aria-hidden="false"] { display: block; }
 }
+ul #myMenu:nth-of-type(1n+5) {
+  display: none;
+}
 a.title > img{
     right:550;
     height:100;
