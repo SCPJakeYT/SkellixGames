@@ -73,7 +73,7 @@
                         </p>
                         <hr>
                         <p class="description">
-                            ------------------------------------------------------------------------------<br>
+                            -----------------------------------------------------------------------------------<br>
                             the line above should be the max text string length for one line.<br>
                             dummy text<br>
                             dummy text<br>
@@ -109,10 +109,11 @@
                 document.getElementsByClassName("exitfs")[0].style.display = "inline";
             }
             function exitfullscreen(){
+                // adjust iframe height as needed :)
                 document.getElementsByTagName("iframe")[0].style.width = "612";
                 document.getElementsByTagName("iframe")[0].style.height = "523";
                 document.getElementsByTagName("iframe")[0].style.position= "absolute";
-                document.getElementsByTagName("iframe")[0].style.top = "525";
+                document.getElementsByTagName("iframe")[0].style.top = "475";
                 document.getElementsByTagName("iframe")[0].style.left = "860";
                 document.getElementsByClassName("content")[0].style.display = "inline";
                 document.getElementsByClassName("exitfs")[0].style.display = "none";
