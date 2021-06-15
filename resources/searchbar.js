@@ -9,9 +9,10 @@ function search() {
   li = ul.getElementsByTagName("li");
                 
   // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < 5; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-                    
+  for (i = 0; i < li.length; i++) {
+    if(i < 5){
+      a = li[i].getElementsByTagName("a")[0];
+    }
     if (a.innerHTML.toUpperCase().indexOf(filter) > -1 && a.innerHTML.toUpperCase().indexOf(filter) != "") {
       li[i].style.display = "";
     } else {
