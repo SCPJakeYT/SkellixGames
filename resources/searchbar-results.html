@@ -24,3 +24,12 @@
 <li><a href="https://SK3LLIX.github.io/SkellixGames/games/point-and-click/riddle-transfer.html"> Riddle Transfer</a></li>
 <li><a href="https://SK3LLIX.github.io/SkellixGames/games/point-and-click/riddle-transfer-2.html"> Riddle Transfer 2</a></li>
 <li><a href="https://SK3LLIX.github.io/SkellixGames/games/misc/bad-time-simulator.html"> Bad Time Simulator</a></li>
+<script>
+  // Limit List to 5 items
+  var max = 5;
+  $(this).find('li').each(function(index){
+    if(index >= max){
+      $(this).hide()
+    }
+  });
+</script>
