@@ -61,6 +61,11 @@
         <br>
         <br>
         <br>
+        <select class="select">
+            $(".select option").val(function(idx, val) {
+              $(this).siblings('[value="'+ val +'"]').remove();
+            });
+    </select>
         <script>
             function search() {
                 // Declare variables
