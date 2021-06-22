@@ -12,6 +12,7 @@
                 <ul id="myMenu">
                     <div w3-include-html="https://SK3LLIX.github.io/SkellixGames/resources/searchbar-results.html"></div>
                 </ul>
+        <button class="exitfs" onclick="exitfullscreen()">Exit Fullscreen</button>
         <br>
        <span class="header">
             <a class="title" alt="Skellix Games Logo" src="index.html">
@@ -23,6 +24,7 @@
             <h1>FREE INDIE GAMES ONLINE</h1>
         </span>
         
+        <iframe class="game-frame" src="https://fnf.run3.io/agoti/100/" allowfullscreen></iframe>
         <span class="content">
             
             <table class="games">
@@ -34,6 +36,7 @@
                         <hr>
                         <h2 class="title">Welcome to SK3LL!X Games!</h2>
                         <hr>
+                        <button class="fs-button" onclick="fullscreen()">Fullscreen</button>
                         <br>
                         <br>
                         <br>
@@ -91,7 +94,24 @@
         <br>
         <br>
         <script>
-            
+            function fullscreen(){
+                document.getElementsByTagName("iframe")[0].style.width = "100%";
+                document.getElementsByTagName("iframe")[0].style.height = "90%";
+                document.getElementsByTagName("iframe")[0].style.position= "absolute";
+                document.getElementsByTagName("iframe")[0].style.top = "125";
+                document.getElementsByTagName("iframe")[0].style.left = "0";
+                document.getElementsByClassName("content")[0].style.display = "none";
+                document.getElementsByClassName("exitfs")[0].style.display = "inline";
+            }
+            function exitfullscreen(){
+                document.getElementsByTagName("iframe")[0].style.width = "612";
+                document.getElementsByTagName("iframe")[0].style.height = "523";
+                document.getElementsByTagName("iframe")[0].style.position= "absolute";
+                document.getElementsByTagName("iframe")[0].style.top = "480";
+                document.getElementsByTagName("iframe")[0].style.left = "860";
+                document.getElementsByClassName("content")[0].style.display = "inline";
+                document.getElementsByClassName("exitfs")[0].style.display = "none";
+            }
             function setup(){
                 document.getElementsByClassName("header")[0].style.position= "absolute";
                 document.getElementsByClassName("header")[0].style.top = "25";
@@ -104,8 +124,11 @@
                 document.getElementsByClassName("game")[0].style.left = "260";
                 document.getElementsByClassName("game")[0].style.position= "absolute";
                 document.getElementsByClassName("game")[0].style.top = "200";
+                document.getElementsByClassName("exitfs")[0].style.position= "absolute";
+                document.getElementsByClassName("exitfs")[0].style.top = "100";
+                document.getElementsByClassName("exitfs")[0].style.left = "50";
                 search();
-                document.getElementsByClassName("content")[0].style.display = "inline";
+                exitfullscreen();
                 document.getElementsByClassName("loader")[0].style.display = "none";
                 
             }
