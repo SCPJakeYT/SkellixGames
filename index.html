@@ -61,7 +61,24 @@
         <br>
         <br>
         <br>
-        
+        <script>
+            function setup(){
+                document.getElementsByClassName("header")[0].style.position= "absolute";
+                document.getElementsByClassName("header")[0].style.top = "25";
+                document.getElementsByClassName("header")[0].style.left = "790";
+                document.getElementsByClassName("games")[0].style.position= "absolute";
+                document.getElementsByClassName("games")[0].style.top = "200";
+                document.getElementsByClassName("games")[0].style.left = "0";
+                document.getElementsByClassName("game")[0].style.position= "absolute";
+                document.getElementsByClassName("game")[0].style.top = "200";
+                document.getElementsByClassName("game")[0].style.left = "260";
+                document.getElementsByClassName("game")[0].style.position= "absolute";
+                document.getElementsByClassName("game")[0].style.top = "200";
+                search();
+                document.getElementsByClassName("loader")[0].style.display = "none";
+                
+            }
+        </script>
         <script>
             function search() {
                 // Declare variables
@@ -94,41 +111,24 @@
                 body.classList.toggle("dark-mode");
                 p.classList.toggle("dark-mode");
                 }
-            
-            function tagFilter() {
-                var tag = elmnt.getAttribute("tagFilter");
-               // Declare variables
+            function myFunction() {
+                
+                // Declare variables
                 var input, filter, ul, li, a, i;
                 input = document.getElementById("mySearch");
                 filter = input.value.toUpperCase();
                 ul = document.getElementById("myMenu");
-                li = ul.getElementsByTagName("span");
+                li = ul.getElementsByTagName("li");
                 
                 // Loop through all list items, and hide those who don't match the search query
                 for (i = 0; i < li.length; i++) {
-                    a = li[i].getElementById("a")[0];
-                    
-                    if (a.innerHTML.toUpperCase().indexOf(filter) > -1 && a.innerHTML.toUpperCase().indexOf(filter) != "") {
-                            li[i].style.display = "";
+                    a = li[i].getElementsByTagName("a")[0];
+                    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
                     } else {
                         li[i].style.display = "none";
                     }
                 }
-            }
-            function setup(){
-                search();
-                document.getElementsByTagName("body")[0].style.overflow= "auto";
-                document.getElementsByClassName("header")[0].style.position= "absolute";
-                document.getElementsByClassName("header")[0].style.top = "25";
-                document.getElementsByClassName("header")[0].style.left = "790";
-                document.getElementsByClassName("games")[0].style.position= "absolute";
-                document.getElementsByClassName("games")[0].style.top = "200";
-                document.getElementsByClassName("games")[0].style.left = "0";
-                document.getElementsByClassName("game")[0].style.position= "absolute";
-                document.getElementsByClassName("game")[0].style.top = "200";
-                document.getElementsByClassName("game")[0].style.left = "260";
-                document.getElementsByClassName("loader")[0].style.display = "none";
-                setup();
             }
         </script>
         <script>
