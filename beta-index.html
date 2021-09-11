@@ -1,0 +1,264 @@
+<html>
+    <head>
+        <title>SK3LL!X Games | Home</title>
+        <link rel="stylesheet" type="text/css" href="https://SK3LLIX.github.io/SkellixGames/resources/assets/new-style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="icon" href="https://SK3LLIX.github.io/SkellixGames/resources/assets/images/skellix-logo-new.png">
+        <link rel="shortcut icon" href="https://SK3LLIX.github.io/SkellixGames/resources/assets/images/skellix-logo-new.png">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script>
+
+        </script>
+    </head>
+    <body onload="updateresults()">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2" style="background-color:#272b2e; border:3px solid #1e2124; height: 6.43vw; padding: 5px;">
+                    <img class="img-responsive" alt = "Skellix Face"src="https://SK3LLIX.github.io/SkellixGames/resources/assets/images/skellix-logo-new.png" style="width: 4.84vw; height: 4.84vw; padding-top: 0.41vw; display: inline-flex;">
+                    <img class="img-responsive" alt = "Skellix Face"src="https://SK3LLIX.github.io/SkellixGames/resources/assets/images/skellix-title-new.png" style="width: 9.67vw; height: 4.84vw; padding-left: 0.67vw; padding-top: 0.41vw; display: inline-flex;">
+                </div>
+                <div class="col-sm-8" style="background-color:#272b2e; border:3px solid #1e2124; height: 6.43vw; padding: 5px;"></div>
+                <div class="col-sm-2" style="background-color:#272b2e; border:3px solid #1e2124; height: 100vw; padding: 5px;">
+
+                    <input class="form-control" id="myInput" type="text" placeholder="Search..">
+                    <br>
+                    <ul id="myMenu">
+                        <table class="table table-bordered">
+                            <thead></thead>
+                            <tbody id="myTable" class="template">
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin.html">Friday Night Funkin'</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/hd.html">Friday Night Funkin' HD</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/bsides.html">Friday Night Funkin' B-Sides</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/csides.html">Friday Night Funkin' C-Sides</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/b3.html">Friday Night Funkin' B3 Remixed</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/minus.html">Friday Night Funkin' Minus</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/zardy.html">Friday Night Funkin' Vs Zardy</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/zardy-old.html">Friday Night Funkin' Vs Zardy (1.0)</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/hex.html">Friday Night Funkin' Vs Hex</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/whitty.html">Friday Night Funkin' Vs Whitty</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/whitty-bsides.html">Friday Night Funkin' Vs Whitty B-Sides</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/garcello.html">Friday Night Funkin' Smoke 'Em Out Struggle (Vs Garcello)</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/tricky.html">Friday Night Funkin' Vs Tricky</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/tricky0.html">Friday Night Funkin' Vs Tricky (Fanmade Phase 0)</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/tricky-old.html">Friday Night Funkin' Vs Tricky (1.0)</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/sanford.html">Friday Night Funkin' Vs Sanford</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/trollge.html">Friday Night Funkin': The Blueballs Incident</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/kapi.html">Friday Night Funkin': Arcade Showdown (Vs Kapi)</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/midfight.html">Friday Night Funkin': Mid-Fight Masses</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/bob.html">Literally Every Friday Night Funkin' Mod Ever (Vs Bob)</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/bob-old.html">Literally Every Friday Night Funkin' Mod Ever (Vs Bob 1.0)</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/shaggy.html">Friday Night Funkin' Vs Shaggy</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/agoti.html">Friday Night Funkin': Mic'd Up (Vs A.G.O.T.I.)</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/sky.html">Friday Night Funkin' Vs Sky</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/tabi-ex.html">Friday Night Funkin' Vs Ex (Tabi)</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/xevent.html">Friday Night Funkin': The X-Event</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/bobbosip.html">Friday Night Funkin' Vs Bob and Bosip</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/peculiarcolors.html">Friday Night Funkin': Peculiar Colors</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/yoshi.html">Friday Night Funkin' Vs Yoshi</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/fever.html">Friday Night Funkin' Vs Fever Town (Friday Night Fever)</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#34393d; border:3px solid #272b2e;"><a style="color:8f8f8f;" href="https://SK3LLIX.github.io/SkellixGames/games/funkin/saltys.html">Friday Night Funkin': Salty's Sunday Night</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://sk3llix.github.io/cdn-scripts/include.js"></script>
+        <script>
+            $(document).ready(function(){
+                
+                $("#myInput").on("keyup", function() {
+                    var value = $(this).val().toLowerCase();
+                    $("#myTable tr").filter(function() {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                    $("#myTable tr").filter(function() {
+                        $('#myTable tr').eq(4)
+                    });
+                });
+            });
+            function updateresults(){
+                
+                
+                
+            }
+        </script>
+        <script>
+            $( "ul li:nth-child(5)" ).hide();
+        </script>
+        <script>
+            function search() {
+                // Declare variables
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("mySearch");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("myMenu");
+                li = ul.getElementsByTagName("li");
+                
+                // Loop through all list items, and hide those who don't match the search query
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    
+                    if (a.innerHTML.toUpperCase().indexOf(filter) > -1 && a.innerHTML.toUpperCase().indexOf(filter) != "") {
+                        
+                    if (a.indexOf() > 5){
+                            li[i].style.display = "";
+                    }else{
+                        li[i].style.display = "none";
+                    }
+                    } else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+            function click(){
+                li[i].style.display = "none";
+            }
+        </script>
+        <script>
+            function darkmodetoggle() {
+                
+                var body = document.body;
+                var p = document.p;
+                body.classList.toggle("dark-mode");
+                p.classList.toggle("dark-mode");
+                }
+            function myFunction() {
+                
+                // Declare variables
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("mySearch");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("myMenu");
+                li = ul.getElementsByTagName("li");
+                
+                // Loop through all list items, and hide those who don't match the search query
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                    } else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
+        <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /* Loop through a collection of all HTML elements: */
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /* Make an HTTP request using the attribute value as the file name: */
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function() {
+                    if (this.readyState == 4) {
+                        if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                            /* Remove the attribute, and call this function once more: */
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /* Exit the function: */
+                    return;
+                }
+            }
+        }
+        </script>
+        <script>
+        includeHTML();
+        </script>
+        <script>
+            function getUrlParameter(sParam){
+                var sPageURL = window.location.search.substring(1);
+                var sURLVariables = sPageURL.split('&');
+                for (var i = 0; i < sURLVariables.length; i++) 
+                {
+                    var sParameterName = sURLVariables[i].split('=');
+                    if (sParameterName[0] == sParam) 
+                    {
+                        return sParameterName[1];
+                    }
+                }
+            }
+        </script>
+        <script>
+        var game = decodeURIComponent(getUrlParameter('game'));
+        document.getElementById('game').innerHTML = includeHTML('game');
+        </script>
+    </body>
+</html>
