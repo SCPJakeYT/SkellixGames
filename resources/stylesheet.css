@@ -1,0 +1,183 @@
+a.title > img{
+    right:550;
+    height:100;
+    width:550;
+}
+img.loader{
+    width: 100%;
+    height: 100%;
+    z-index:99999999999999999999999999999999999999999;
+}
+.thumbnail-row a > img{
+    position: absoulte;
+    width: 200px;
+    height: 115px;
+    filter:grayscale(25%);
+    filter:brightness(75%);
+    z-index: 4;
+    margin:15px;
+}
+.thumbnail-row:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.thumbnail-row a > img:hover{
+    position:relative;
+    filter:grayscale(0%);
+    filter:brightness(100%);
+}
+a.title > img.skull{
+    height:100;
+    width:100;
+}
+a.title + img.skull{
+    height:100;
+    width:100;
+}
+a.title{
+    display:inline-flex;
+}
+span.header{
+    font-family: 'Stalinist One', cursive;
+    text-align:center;
+    color:#32a852;
+}
+span.content{
+    display:inline-flex;
+}
+body{
+    background-color:#363c40;
+    background-image:url("https://cdn.pixilart.com/photos/large/29010dc57588939.jpg");
+    width:100vw;
+   
+}
+#hidden{
+    display:none;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.fullScreen {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 125;
+    left: 0;
+}
+.dark-mode{
+    background-color:black;
+}
+iframe.game-frame{
+    height:523;
+    width:612;
+}
+h2.title{
+    font-style:bold;
+    font-family: 'Staatliches', cursive;
+    color:#0c192e;
+    font-size:36;
+}
+h2.subtitle{
+    font-style:bold;
+    font-family: 'Viga', sans-serif;
+    color:#3b475c;
+    font-size:24;
+}
+.warning{
+    font-family: 'Staatliches', cursive;
+    font-style:bold;
+    background-color:#ff0048;
+    color: #eeeeee;
+    font-size:24;
+}
+p.description{
+    font-family: 'Viga', sans-serif;
+    font-style:bold;
+    color:#3b424d;
+    font-size:18;
+}
+p.controls{
+    font-family: 'Viga', sans-serif;
+    font-style:bold;
+    color:#2d323b;
+    font-size:22;
+}
+p.credits{
+    font-family: 'Viga', sans-serif;
+    font-style:bold;
+    color:#2d323b;
+    font-size:20;
+}
+p.credits > a{
+    color:#08821c;
+    font-size:21;
+}
+table.game{
+    margin-top:125px;
+    margin-left:535px;
+    text-align:center;
+    background-color:#888e8f;
+    width:750;
+    height:860;
+}
+table.array-frame{
+    margin-top:125px;
+    margin-left:120px;
+    text-align:center;
+    background-color:#888e8f;
+    z-index: 3;
+    width:1050;
+    height:auto;
+}
+.game-list{
+    padding:5px;
+    padding-left:55px;
+    padding-right:50px;
+    background-color:#888e8f;
+    width:300px;
+    height:100px;
+    border:5px solid #4d5157;
+    text-align:center;
+    font-size:18;
+}
+.game-list > p{
+    text-decoration:none;
+    color:#08821c;
+    font-size:18;
+}
+#mySearch {
+    font-family: 'Viga', sans-serif;
+    margin-left:1700;
+    width: 255px;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+}
+#myMenu {
+    list-style-type: none;
+    margin-left:1700;
+    margin-top:0;
+    padding: 0;
+}
+#myMenu li a {
+    font-family: 'Viga', sans-serif;
+    padding: 12px;
+    width: 230px;
+    border:5px solid #4d5157;
+    text-decoration: none;
+    z-frame:5;
+    color: black;
+    display: block
+}
+
+#myMenu li a:hover {
+    background-color: #eee;
+}
+#myMenu li a{
+    background-color:#888e8f;
+}
+iframe{
+    z-index:1;
+}
