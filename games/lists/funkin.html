@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>SK3LL!X Games | Friday Night Funkin Game List</title>
-        <link rel="stylesheet" type"text/css" href="https://SK3LLIX.github.io/SkellixGames/resources/stylesheet.css">
+        <link rel="stylesheet" type"text/css" href="https://SK3LLIX.github.i/SkellixGames/resources/stylesheet.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="https://cdn.pixilart.com/photos/large/b40b5971080a52f.png">
     </head>
@@ -33,8 +33,6 @@
                     <th>
                         <hr>
                         <h2 class="title">Friday Night Funkin' Game List</h2>
-                        <hr>
-                        <input type="text" id="myFilter" onkeyup="search()" placeholder="Filter Games" title="Type in a category">
                         <hr><table class="array">
                                 <tr>
                                     <th>
@@ -140,25 +138,6 @@
                 input = document.getElementById("mySearch");
                 filter = input.value.toUpperCase();
                 ul = document.getElementById("thumbnail-row");
-                li = ul.getElementsByTagName("li");
-                
-                // Loop through all list items, and hide those who don't match the search query
-                for (i = 0; i < li.length; i++) {
-                    a = li[i].getElementsByTagName("a")[0];
-                    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                        li[i].style.display = "";
-                    } else {
-                        li[i].style.display = "none";
-                    }
-                }
-            }
-            function filtergames() {
-                
-                // Declare variables
-                var input, filter, ul, li, a, i;
-                input = document.getElementById("myFilter");
-                filter = input.value.toUpperCase();
-                ul = document.getElementsByClassName("myMenu");
                 li = ul.getElementsByTagName("li");
                 
                 // Loop through all list items, and hide those who don't match the search query
