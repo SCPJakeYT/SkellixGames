@@ -1,0 +1,227 @@
+<html>
+    <head>
+        <title>SK3LL!X Games | Friday Night Funkin' Vs Lizbert</title>
+        <link rel="stylesheet" type"text/css" href="https://SK3LLIX.github.io/SkellixGames/resources/stylesheet.css">
+        <link rel="icon" href="https://cdn.pixilart.com/photos/large/b40b5971080a52f.png">
+        <link rel="shortcut icon" href="https://cdn.pixilart.com/photos/large/b40b5971080a52f.png">
+    </head>
+    <body onload="setup()">
+        <div w3-include-html="https://SK3LLIX.github.io/SkellixGames/resources/fonts.html"></div>
+        <img class="loader" src="https://SK3LLIX.github.io/SkellixGames/resources/assets/images/loader.gif">
+        <input type="text" id="mySearch" onkeyup="search()" placeholder="Search.." title="Type in a category">
+                <ul id="myMenu">
+                    <div w3-include-html="https://SK3LLIX.github.io/SkellixGames/resources/searchbar-results.html"></div>
+                </ul>
+        <button class="exitfs" onclick="exitfullscreen()">Exit Fullscreen</button>
+        <br>
+       <span class="header">
+            <a class="title" alt="Skellix Games Logo" src="index.html">
+                <img class="skull" alt = "Skellix Face"src="https://cdn.pixilart.com/photos/large/b40b5971080a52f.png">
+                <img src="https://cdn.pixilart.com/photos/large/44942907b956a72.png">
+                <img class="skull" alt = "Skellix Face"src="https://cdn.pixilart.com/photos/large/b40b5971080a52f.png">
+            </a>
+            <br>
+            <h1>FREE INDIE GAMES ONLINE</h1>
+        </span>
+        
+        <iframe class="game-frame" src="https://fnf.run3.io/lizbert/1.2/" allowfullscreen></iframe>
+        <span class="content">
+            
+            <table class="games">
+                 <div w3-include-html="https://SK3LLIX.github.io/SkellixGames/resources/genre-list.html"></div>
+            </table>
+            <table class="game">
+                <tr>
+                    <th>
+                        <hr>
+                        <h2 class="title">Friday Night Funkin' Vs Lizbert</h2>
+                        <hr>
+                        <button class="fs-button" onclick="fullscreen()">Fullscreen</button>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <hr>
+                        <p class="controls">
+                            Use WASD or the Arrow Keys to hit the notes when they get to the judgment line.<br>
+                        </p>
+                        <hr>
+                        <p class="description">
+                            -----------------------------------------------------------------------------------<br>
+                            the line above should be the max text string length for one line.<br>
+                            dummy text<br>
+                            dummy text<br>
+                            <a href="https:sk3llix.github.io/SkellixGames/index.html">dummy link</a>
+                        </p>
+                        <hr>
+                        <p class="credits">
+                            Get the mod <a href="https://gamebanana.com/mods/44683">here</a><br>
+                            Play the vanilla game <a href="funkin.html">here</a>
+                        </p>
+                        <hr>
+                        <p class="credits">
+                            Link to Itch.io page <a href="https://ninja-muffin24.itch.io/funkin">here</a>.
+                            <br>
+                            <hr>
+                        </p>
+                     </th>
+                 </tr>
+             </table>
+         </span>
+        <br>
+        <br>
+        <br>
+        <br>
+        <script>
+            function fullscreen(){
+                document.getElementsByTagName("iframe")[0].style.width = "100%";
+                document.getElementsByTagName("iframe")[0].style.height = "90%";
+                document.getElementsByTagName("iframe")[0].style.position= "absolute";
+                document.getElementsByTagName("iframe")[0].style.top = "125";
+                document.getElementsByTagName("iframe")[0].style.left = "0";
+                document.getElementsByClassName("content")[0].style.display = "none";
+                document.getElementsByClassName("exitfs")[0].style.display = "inline";
+            }
+            function exitfullscreen(){
+                // adjust iframe height as needed :)
+                document.getElementsByTagName("iframe")[0].style.width = "612";
+                document.getElementsByTagName("iframe")[0].style.height = "523";
+                document.getElementsByTagName("iframe")[0].style.position= "absolute";
+                document.getElementsByTagName("iframe")[0].style.top = "475";
+                document.getElementsByTagName("iframe")[0].style.left = "860";
+                document.getElementsByClassName("content")[0].style.display = "inline";
+                document.getElementsByClassName("exitfs")[0].style.display = "none";
+            }
+            function setup(){
+                document.getElementsByClassName("header")[0].style.position= "absolute";
+                document.getElementsByClassName("header")[0].style.top = "25";
+                document.getElementsByClassName("header")[0].style.left = "790";
+                document.getElementsByClassName("games")[0].style.position= "absolute";
+                document.getElementsByClassName("games")[0].style.top = "200";
+                document.getElementsByClassName("games")[0].style.left = "0";
+                document.getElementsByClassName("game")[0].style.position= "absolute";
+                document.getElementsByClassName("game")[0].style.top = "200";
+                document.getElementsByClassName("game")[0].style.left = "260";
+                document.getElementsByClassName("game")[0].style.position= "absolute";
+                document.getElementsByClassName("game")[0].style.top = "200";
+                document.getElementsByClassName("exitfs")[0].style.position= "absolute";
+                document.getElementsByClassName("exitfs")[0].style.top = "100";
+                document.getElementsByClassName("exitfs")[0].style.left = "50";
+                search();
+                exitfullscreen();
+                document.getElementsByClassName("loader")[0].style.display = "none";
+                document.body.style.zoom = "67%";
+            }
+        </script>
+        <script>
+            function search() {
+                // Declare variables
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("mySearch");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("myMenu");
+                li = ul.getElementsByTagName("li");
+                
+                // Loop through all list items, and hide those who don't match the search query
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    
+                    if (a.innerHTML.toUpperCase().indexOf(filter) > -1 && a.innerHTML.toUpperCase().indexOf(filter) != "") {
+                            li[i].style.display = "";
+                    } else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+            function click(){
+                li[i].style.display = "none";
+            }
+        </script>
+        <script>
+            function darkmodetoggle() {
+                
+                var body = document.body;
+                var p = document.p;
+                body.classList.toggle("dark-mode");
+                p.classList.toggle("dark-mode");
+                }
+            function myFunction() {
+                
+                // Declare variables
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("mySearch");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("myMenu");
+                li = ul.getElementsByTagName("li");
+                
+                // Loop through all list items, and hide those who don't match the search query
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                    } else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
+        <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /* Loop through a collection of all HTML elements: */
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /* Make an HTTP request using the attribute value as the file name: */
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function() {
+                    if (this.readyState == 4) {
+                        if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                            /* Remove the attribute, and call this function once more: */
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /* Exit the function: */
+                    return;
+                }
+            }
+        }
+        </script>
+        <script>
+        includeHTML();
+        </script>
+    </body>
+</html>
