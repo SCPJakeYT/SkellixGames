@@ -3,7 +3,7 @@ a.title > img{
     height:100;
     width:550;
 }
-#results:nth-of-type(1n+15) {
+li:nth-of-type(1n+15) {
     display: none;
 }
 img.loader{
